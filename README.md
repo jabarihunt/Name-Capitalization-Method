@@ -1,5 +1,5 @@
 # Name Capitalization Method
-Method that correctly capitalizes names.  Accounts for prefixes &amp; suffixes, apostrophes, name parts that shouldn't be capitalized, and other scenarios where using something like `UCWORDS(STRTOLOWER($STR))` doesn't work.
+Method that correctly capitalizes names.  Accounts for prefixes &amp; suffixes, apostrophes, name parts that shouldn't be capitalized, and other scenarios where using something like `ucwords(strtolower($str))` doesn't work.
 
 Eventually I'll move this into a formatter class of some sort.
 
